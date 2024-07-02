@@ -1,0 +1,343 @@
+// =============== TABLET 1024 =================
+@media screen and (max-width: 1279px) {
+  .title-wrapper {
+    gap: 14px;
+    &.title-wrapper--creativ {
+      margin: 0px 0px 14px 0px;
+      .discont-title {
+        text-align: center;
+        padding: 20px;
+      }
+      .discont-subtitle {
+        font-size: 12px;
+        padding: 12px 14px;
+        max-width: 100%;
+      }
+    }
+    .discont-button {
+      margin-top: 10px;
+    }
+    .discont__info {
+      margin-top: 10px;
+    }
+  }
+
+  .corner {
+    right: 10px;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 8px 8px 0px 0px;
+    .corner__image {
+      width: 34px;
+      height: 34px;
+    }
+    .corner__title {
+      width: 100%;
+      font-size: 16px;
+      line-height: 1.2;
+      span {
+        font-size: 10px;
+        line-height: 0.8;
+        margin-bottom: 2px;
+      }
+    }
+    .corner__subtitle {
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+    .corner__promocode {
+      font-size: 14px;
+      line-height: 1.2;
+      padding: 8px;
+      border-radius: 4px;
+    }
+    a {
+      width: 24px;
+      height: 24px;
+      border-radius: 24px;
+      right: 8px;
+      top: 8px;
+      img {
+        width: 30%;
+      }
+    }
+    &.corner--salon {
+      width: 140px;
+      padding-bottom: 10px;
+      border-radius: 8px 0px 0px 0px;
+      right: -2px;
+    }
+    &.corner--promocode {
+      width: 160px;
+      .corner__subtitle {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .discont-title.size--h6,
+  .discont-title .size--h6 {
+    font-size: 24px;
+  }
+  .discont-title.size--h3.colored,
+  .discont-title .size--h3.colored {
+    font-size: 44px;
+  }
+
+  .discont__programs {
+    gap: 10px;
+    right: 40px;
+    bottom: 40px;
+    div {
+      width: 120px;
+      padding: 8px;
+      border-radius: 4px;
+    }
+    span {
+      font-size: 30px;
+    }
+    p {
+      font-size: 8px;
+    }
+  }
+}
+
+// =============== TABLET 768 ==================
+
+@media screen and (max-width: 1023px) {
+  .discont-button {
+    min-width: 174px;
+    min-height: 48px;
+    padding: 5px 20px;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  .discont {
+    &.discont--light {
+      .title-wrapper {
+        &.title-wrapper--creativ {
+          border: 2px solid #980e3e;
+        }
+      }
+    }
+
+    &.discont--dark {
+      .title-wrapper {
+        &.title-wrapper--creativ {
+          border: 2px solid #fff;
+        }
+      }
+    }
+  }
+
+  .discont__content {
+    padding: 30px 10px;
+  }
+
+  .title-wrapper {
+    gap: 8px;
+    &.title-wrapper--creativ {
+      max-width: 360px;
+      margin: 0px 0px 14px 0px;
+      .discont-title {
+        text-align: center;
+        padding: 20px;
+      }
+      .discont-subtitle {
+        font-size: 12px;
+        padding: 12px 14px;
+        max-width: 100%;
+      }
+    }
+    .discont-button {
+      margin-top: 10px;
+    }
+    .discont__info {
+      margin-top: 10px;
+    }
+  }
+
+  .discont-title {
+    &.size--h1,
+    .size--h1 {
+      font-size: 64px;
+    }
+
+    &.size--h2,
+    .size--h2 {
+      font-size: 42px;
+    }
+
+    &.size--h3,
+    .size--h3 {
+      font-size: 36px;
+      &.colored {
+        font-size: 36px;
+      }
+    }
+
+    &.size--h4,
+    .size--h4 {
+      font-size: 32px;
+    }
+
+    &.size--h5,
+    .size--h5 {
+      font-size: 18px;
+    }
+
+    &.size--h6,
+    .size--h6 {
+      font-size: 19.6px;
+    }
+  }
+
+  .discont-subtitle {
+    font-size: 16px;
+  }
+
+  .discont__info {
+    padding: 8px;
+    gap: 8px;
+    max-width: 230px;
+    .icon {
+      width: 30px;
+      height: 30px;
+    }
+    p {
+      width: calc(100% - 38px);
+      font-size: 12px;
+    }
+  }
+
+  .discont__programs {
+    gap: 8px;
+    right: 20px;
+    bottom: 30px;
+    div {
+      width: 80px;
+      padding: 8px;
+      border-radius: 4px;
+    }
+    span {
+      font-size: 20px;
+    }
+    p {
+      font-size: 8px;
+    }
+  }
+}
+
+// =============== MOBIL ==================
+
+@media screen and (max-width: 767px) {
+  .discont {
+    max-width: 375px;
+    min-height: 580px;
+    border-radius: 14px;
+    &.discont--dark {
+      background: #980e3e url('../img/discontBackgroundMobil.png') no-repeat center center/cover;
+      background-size: 100% auto;
+    }
+  }
+  .discont__image {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    order: 2;
+  }
+  .discont__content {
+    position: static;
+    gap: 20px;
+    order: 1;
+    width: 100%;
+    margin: 0;
+    height: auto;
+    align-self: flex-start;
+    padding: 20px 24px 0px 24px;
+    z-index: 2;
+  }
+
+  .discont-subtitle {
+    font-size: 14px;
+  }
+  .title-wrapper.title-wrapper--creativ .discont-subtitle {
+    font-size: 11px;
+    padding: 12px;
+  }
+  .discont-title.size--h6,
+  .discont-title .size--h6 {
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 10px 0px;
+  }
+
+  .discont-title.size--h3.colored,
+  .discont-title .size--h3.colored {
+    font-size: 33px;
+  }
+
+  .discont-title.size--h2,
+  .discont-title .size--h2 {
+    font-size: 40px;
+  }
+
+  .discont-title.size--h3,
+  .discont-title .size--h3 {
+    font-size: 33px;
+  }
+
+  .discont__programs {
+    gap: 12px;
+    right: 20px;
+    left: 20px;
+    bottom: 20px;
+    div {
+      width: calc(50% - 6px);
+      padding: 8px;
+      border-radius: 8px;
+    }
+    span {
+      font-size: 46px;
+    }
+    p {
+      font-size: 9px;
+    }
+  }
+  .discont__info {
+    .icon {
+      img {
+        max-width: 50%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .discont__content {
+    padding: 20px;
+  }
+  .discont-subtitle {
+    font-size: 14px;
+  }
+
+  .discont-title.size--h3,
+  .discont-title .size--h3 {
+    font-size: 32px;
+  }
+
+  .discont-title.size--h6,
+  .discont-title .size--h6 {
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 10px 0px;
+  }
+
+  .discont-title.size--h1,
+  .discont-title .size--h1 {
+    font-size: 54px;
+  }
+}
