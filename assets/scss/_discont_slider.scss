@@ -5,6 +5,9 @@
   height: auto;
   margin: 0 auto;
   overflow: hidden;
+  > * {
+    box-sizing: border-box;
+  }
 
   .discont-slider {
     overflow: visible;
